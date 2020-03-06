@@ -1,0 +1,218 @@
+/*------------------------------General Styles---------------------------------*/
+@font-face {
+    font-family: BYekan;
+    src: url(fonts/BYekan.eot) format('eot'),
+    url(fonts/BYekan.woff) format('woff'),
+    url(fonts/BYekan.ttf) format('truetype');
+}
+html,body, #main{
+    font-family: BYekan;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+    height: 100%;
+    min-height: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #fff;
+    background-color: #919191;
+    border-radius: 10px;
+}
+h1,h2,h3,h4{
+    font-family: BYekan;
+}
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.fwc{
+    width: 1000px;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.w50p{
+    width: 50%;
+}
+.m30{
+    margin: 30px !important;
+}
+/*--------------------------------NAv Menu-------------------------*/
+header nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 48px;
+    z-index: 999999;
+
+
+}
+header nav #topmenu{
+    background:  url("image/laptop.png") no-repeat left 10px;
+
+}
+header nav #topmenu ul li {
+    display: inline-block;
+}
+header nav #topmenu ul li a{
+    font-size: 20px;
+    padding: 0 10px;
+}
+.activmenu{
+    text-decoration: underline;
+    text-decoration-color: #d8123b;
+    text-decoration-style: double;
+}
+/*--------------------------------slider-------------------------*/
+.sliderWrapper{
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    background: transparent url("image/christopher-gower-_aXa21cf7rY-unsplash.jpg") no-repeat;
+    box-sizing: border-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#slider  {
+    height: 100%;
+}
+.slidetext{
+
+    font-family: BYekan;
+background-color: #919191;
+    color: #fff;
+    border-radius: 40px;
+    padding: 5px 10px;
+}
+/*--------------------------------row1-------------------------*/
+
+.rowContainer{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.row{
+    padding: 70px 0 30px 0 !important;
+}
+.content1{
+    margin-top: 20px;
+}
+.white{
+    background-color: #fff;
+}
+
+.silver {
+    background-color: #d6d6d8;
+}
+
+.box1{
+    width: 33%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+
+.title h2{
+    font-size: 36px;
+    color: #336791;
+}
+.box1 h3{
+    margin: 5px 0 7px 0;
+    font-size: 20px;
+    color: #336791;
+}
+
+.title, p.lead {
+    font-family: byekan;
+    margin-top: 16px;
+    font-size: 16px;
+}
+/*--------------------------------row2-------------------------*/
+.content2 h3{
+    color: #00bcd4;
+       font-size: 30px;
+    margin: 30px;
+
+
+    }
+.content2 p {
+    font-size: 16px;
+    line-height: 24px;
+    margin:30px;
+    text-align: justify;
+}
+#row2 .row{
+    padding-bottom: 0 !important;
+}
+/*--------------------------------row3-------------------------*/
+#row3{
+    background: transparent url("image/jesus-kiteque-wn-KYaHwcis-unsplash.jpg");
+    background-size: cover;
+opacity: 0.7;
+}
+#row3 h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#row3 form{
+    text-align: center;
+}
+#row3 input,#row3 textarea {
+    font-size: 18px;
+    text-align: right;
+    color: #354149;
+    font-weight: bold;
+    font-family: BYekan;
+    width: 70%;
+    border: 3px solid #cccccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: block;
+    margin: 5px auto;
+}
+#row3 input:focus,#row3 textarea:focus {
+    border-color: #82bccc;
+    outline: none;
+}
+#row3 .info{
+    line-height: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+#footer {
+    font-size: 16px;
+    margin-top: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    color:#fff ;
+}
+
+
+#footer ul li {
+    margin-right: 8px;
+    display: inline-block;
+}
+#footer img {
+    border-radius: 10px;
+}
+#footer img:hover {
+    opacity: 0.7;
+}
